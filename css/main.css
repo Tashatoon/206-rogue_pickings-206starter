@@ -55,6 +55,9 @@ header h1 {
   flex-flow: row wrap;
   margin: 0;
   padding: 38px 0;
+  width: 40%;
+  border-bottom: 1px;
+  text-align: center;
 }
 header h1 span {
   color: #77a466;
@@ -66,6 +69,9 @@ header nav {
 header nav ul {
   margin: 0;
   padding: 0;
+  width: 40%;
+  border-bottom: 1px;
+  text-align: center;
 }
 header nav ul li {
   text-transform: uppercase;
@@ -169,4 +175,28 @@ footer span {
   text-transform: lowercase;
   color: #77a466;
   font-size: 14px;
+}
+@media all and (min-width: 768px) {
+  .bottom-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one,
+  .section-two,
+  .section-three {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media all and (min-width: 1200px) {
+  .bottom-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one,
+  .section-two,
+  .section-three {
+    justify-content: center;
+    align-items: center;
+  }
 }
